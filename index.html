@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-FUNCTIONS</title>
+</head>
+<body>
+    <script>
+        // Functions without Parameters
+        console.log("Functions without Parameters");
+        function greet() {
+        console.log("Hello World!");
+        }
+        greet();
+
+        //Functions with Parameters
+        console.log("Functions with Parameters")
+        function addNumbers(a,b){
+            console.log(a+b);
+        }
+        addNumbers(20,20);
+
+        function multiply(x, y) {
+        return x * y;
+        }
+        multiply(10, 10);
+
+        function calculateRectangleArea(length, width) {
+        return multiply(length, width);
+        }
+        const length = 8;
+        const width = 17;
+        const area = calculateRectangleArea(length, width);
+        console.log(`The area of the rectangle is: ${area}`);
+        
+
+        // Functions with Return Statements
+        console.log("Functions with Return Statements")
+        function greetUser(name = "Sharanya_ashok") {
+        console.log(`hello , ${name}`);
+        }
+        greetUser();
+    </script>
+</body>
+</html>
